@@ -3,47 +3,43 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-header {
-    background-color: #003366;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
-
-nav ul li {
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+header h2 {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+}
+nav a {
     margin: 0 15px;
-}
-
-nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
 }
-
 main {
-    padding: 2rem;
+    flex: 3;
+    padding: 20px;
 }
-
-section {
-    margin-bottom: 2rem;
+aside {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
-
 footer {
-    background-color: #003366;
+    background-color: #004080;
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 10px;
+    width: 100%;
+    position: relative;
 }
